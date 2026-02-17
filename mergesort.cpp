@@ -55,14 +55,9 @@ void mergesort(int arr[],int left , int right ){
 
 
 int main(){
-    int z;
-    int arr[z];
-    int n;
-    cout<<"ENTER THE VALUE OF N:";
-    cin>>n;
-for (int l=0;l<n;l++){
-    cout<<"ENTER THE VALUES : ";
-    cin>>arr[z];}
+    
+    int arr[]={2,5,4,3,1};
+    int n=5;
     mergesort(arr,0,n-1);
 
     for (int i=0;i<n;i++){
